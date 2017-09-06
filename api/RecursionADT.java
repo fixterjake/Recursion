@@ -64,8 +64,8 @@
  * implement this ADT will receive NO CREDIT.</li>
  * <li>You may submit as many times as you like until the deadline.</li>
  * <li>The grade of your latest submission will be the one recorded.</li>
- * <li><b>Disregard the Web-CAT correctness grade. I will compute it
- * differently.</b></li>
+ * <li><b>I have modified the Web-CAT grader to compute the grades
+ * as we talked about in class. The CNU Weighted score is correct.</b></li>
  * </ul>
  * </p>
  * <h2>CHECKLISTS</h2>
