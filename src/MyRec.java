@@ -4,7 +4,7 @@
  * @author Jacob Boyles
  * @version 1.0
  */
-public class Recursion implements RecursionADT {
+public class MyRec implements RecursionADT {
 
     /*
      * (non-Javadoc)

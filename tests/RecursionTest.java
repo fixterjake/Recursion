@@ -16,7 +16,7 @@ public class RecursionTest {
      */
     @Test
     public void factorialTest() {
-        Recursion rec = new Recursion();
+        MyRec rec = new MyRec();
         Integer input = 10;
         Integer expected = 3628800;
         Integer actual = rec.fact(input);
@@ -28,7 +28,7 @@ public class RecursionTest {
      */
     @Test
     public void factorialTestZero() {
-        Recursion rec = new Recursion();
+        MyRec rec = new MyRec();
         Integer zero = 0;
         Integer one = 1;
         assertEquals(one, rec.fact(zero));
@@ -39,7 +39,7 @@ public class RecursionTest {
      */
     @Test
     public void factorialLessThanZero() {
-        Recursion rec = new Recursion();
+        MyRec rec = new MyRec();
         boolean throwsException = false;
         Integer negativeOne = -1;
         try {
@@ -56,7 +56,7 @@ public class RecursionTest {
      */
     @Test
     public void palindromeTestMoreThanTwo() {
-        Recursion rec = new Recursion();
+        MyRec rec = new MyRec();
         String s = "racecar";
         boolean expected = true;
         boolean actual = rec.isPal(s);
@@ -68,7 +68,7 @@ public class RecursionTest {
      */
     @Test
     public void palindromeTestLessThanTwo() {
-        Recursion rec = new Recursion();
+        MyRec rec = new MyRec();
         String s = "a";
         boolean expected = true;
         boolean actual = rec.isPal(s);
@@ -80,7 +80,7 @@ public class RecursionTest {
      */
     @Test
     public void palindromeTestFail() {
-        Recursion rec = new Recursion();
+        MyRec rec = new MyRec();
         String s = "fail";
         boolean expected = false;
         boolean actual = rec.isPal(s);

@@ -10,7 +10,7 @@
  * </pre>
  * 
  * -->
- * <h1>Asg1: Recursion</h1>
+ * <h1>Asg1: MyRec</h1>
  * <h2>Objectives</h2>
  * <p>
  * <ul>
