@@ -64,8 +64,8 @@
  * implement this ADT will receive NO CREDIT.</li>
  * <li>You may submit as many times as you like until the deadline.</li>
  * <li>The grade of your latest submission will be the one recorded.</li>
- * <li><b>I have modified the Web-CAT grader to compute the grades
- * as we talked about in class. The CNU Weighted score is correct.</b></li>
+ * <li><b>I have modified the Web-CAT grader to compute the grades as we talked
+ * about in class. The CNU Weighted score is correct.</b></li>
  * </ul>
  * </p>
  * <h2>CHECKLISTS</h2>
@@ -158,14 +158,15 @@ public interface RecursionADT {
      * @param n
      *            compute the factorial of this number.
      * @return n!
-     * @throws IllegalArgumentException if n < 0
+     * @throws IllegalArgumentException
+     *             if n < 0
      */
     public Integer fact(Integer n) throws IllegalArgumentException;
 
     /**
      * 
-     * Determine if the given String is a palindrome. Do not ignore
-     * spaces or punctuation. For example "I am.ma I" is a palindrome.
+     * Determine if the given String is a palindrome. Do not ignore spaces or
+     * punctuation. For example "I am.ma I" is a palindrome.
      *
      * @param s
      *            determine if this is a palindrome
@@ -174,11 +175,12 @@ public interface RecursionADT {
     public Boolean isPal(String s);
 
     /**
-     * Determine if the given String is an Int. An Int is a String whose
-     * first character is a +, -, or a digit, and whose rest of the String
-     * is a sequence of digits.
+     * Determine if the given String is an Int. An Int is a String whose first
+     * character is a +, -, or a digit, and whose rest of the String is a
+     * sequence of digits.
      *
-     * @param s determine if this is an Int
+     * @param s
+     *            determine if this is an Int
      * @return true if s is an Int, false else
      */
     public Boolean isInt(String s);
