@@ -9,6 +9,11 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
+/**
+ * Unit tests for MyRec
+ * @author jacobboyles
+ * @version 1.0
+ */
 public class RecursionTest {
 
     /**
@@ -84,6 +89,54 @@ public class RecursionTest {
         String s = "fail";
         boolean expected = false;
         boolean actual = rec.isPal(s);
+        assertEquals(expected, actual);
+    }
+    
+    /**
+     * Is integer test with int
+     */
+    @Test
+    public void isIntegerWithInt() {
+        MyRec rec = new MyRec();
+        String s = "123";
+        boolean expected = true;
+        boolean actual = rec.isInt(s);
+        assertEquals(expected, actual);
+    }
+    
+    /**
+     * Is integer without int
+     */
+    @Test
+    public void isIntegerWithoutInt() {
+        MyRec rec = new MyRec();
+        String s = "NotInt";
+        boolean expected = false;
+        boolean actual = rec.isInt(s);
+        assertEquals(expected, actual);
+    }
+    
+    /**
+     * Is integer with '-' sign
+     */
+    @Test
+    public void isIntegerWithMinus() {
+        MyRec rec = new MyRec();
+        String s = "-123";
+        boolean expected = true;
+        boolean actual = rec.isInt(s);
+        assertEquals(expected, actual);
+    }
+    
+    /**
+     * Is integer with '+' sign
+     */
+    @Test
+    public void isIntegerWithPlus() {
+        MyRec rec = new MyRec();
+        String s = "+123";
+        boolean expected = true;
+        boolean actual = rec.isInt(s);
         assertEquals(expected, actual);
     }
 }
