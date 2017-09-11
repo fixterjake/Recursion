@@ -139,4 +139,14 @@ public class RecursionTest {
         boolean actual = rec.isInt(s);
         assertEquals(expected, actual);
     }
+    
+    /**
+     * Is integer looking for fail
+     */
+    @Test
+    public void isIntNotInt() {
+        MyRec rec = new MyRec();
+        String s = "fail";
+        boolean expected = false;
+    }
 }

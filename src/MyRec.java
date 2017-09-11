@@ -50,8 +50,13 @@ public class MyRec implements RecursionADT {
      */
     @Override
     public Boolean isInt(String s) {
-        
-        return null;
+
+        String plus = "+";
+        String minus = "-";
+        if (s.startsWith(plus) || s.startsWith(minus)) {
+            
+        }
+        return false;
     }
 
 }
