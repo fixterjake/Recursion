@@ -3,6 +3,7 @@
  * 
  * @author Jacob Boyles
  * @version 1.0
+ * @category Project
  */
 public class MyRec implements RecursionADT {
 
